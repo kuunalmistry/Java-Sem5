@@ -1,4 +1,4 @@
-package Sorting:
+package Sorting;
 
 public class CountingSort {
 
@@ -31,7 +31,7 @@ public class CountingSort {
         }
 
         //Copy output back to original array
-        System.arraycopy(output, 0, arr, 0, arr.length)
+        System.arraycopy(output, 0, arr, 0, arr.length);
 
     }
 
