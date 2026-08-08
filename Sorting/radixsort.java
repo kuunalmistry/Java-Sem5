@@ -8,7 +8,7 @@ public class RadixSort {
                 max = val;
             }
         }
-        for (int exp = 1; max / exp > 0; exp += 10){
+        for (int exp = 1; max / exp > 0; exp *= 10){
             countingSort(arr, exp);
         }
     }
