@@ -1,0 +1,13 @@
+public  static void main(String args[]) {
+    int arr[] = {17,11,13,5,6,7};
+
+    System.out.println("Before Array Is :");
+    printArray(arr);
+
+    HeapSort hs = new HeapSort();
+    hs.sort(arr);
+
+    System.out.println("Sorted Array Is: ")
+    printArray(arr);
+    }
+}
