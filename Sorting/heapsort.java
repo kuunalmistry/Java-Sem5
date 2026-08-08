@@ -10,17 +10,17 @@ public class HeapSort {
             heapify(arr,n,i);
 
         }
-        for (int i =n -1; i >; i--) {
-            swap(arr,0.i);
+        for (int i = n - 1; i > 0; i--) {
+            swap(arr, 0, i);
 
-            heapify(arr,i,0);
+            heapify(arr, i, 0);
         }
     }
 
-    private void main(int[] arr, int i, int j) {
+    private void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
-        arr[j]= temp;
+        arr[j] = temp;
 
     }
 
