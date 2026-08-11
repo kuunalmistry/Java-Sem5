@@ -1,3 +1,5 @@
+package Sorting;
+
 public class DisjointSet {
     
     private int[] parent;
