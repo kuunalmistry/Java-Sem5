@@ -45,7 +45,6 @@ software development practices using Java.
 B.Tech Student | Artificial Intelligence &amp; Machine Learning
 
 <br><br>
-
 <a href="https://github.com/KuunalMistry">
 <img src="https://img.shields.io/badge/GitHub-KuunalMistry-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
