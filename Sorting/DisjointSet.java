@@ -50,9 +50,7 @@ public class DisjointSet {
         ds.union(0, 1);
         ds.union(1, 2);
         ds.union(2, 3);
-
         ds.union(4, 5);
-
         ds.union(0, 4);
 
         System.out.println(ds.connected(0, 2));
