@@ -43,4 +43,15 @@ public class HeapSort {
             heapify(arr,n,largest);
         }
     }
+public static void main(String[] args) {
+    int arr[] = {12, 11, 13, 5, 6, 7};
+
+    HeapSort hs = new HeapSort();
+    hs.sort(arr);
+
+    System.out.println("Sorted array:");
+    for (int i : arr) {
+        System.out.print(i + " ");
+    }
+}
 }
